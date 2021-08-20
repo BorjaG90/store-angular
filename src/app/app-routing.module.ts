@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BorComponent } from './pages/bor/bor.component';
 
 const routes: Routes = [
-  { path: 'bor', component: BorComponent },
+  { path: 'products', loadChildren: () => import('./pages/products/products.module').then(m => m.ProductsModule) },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
