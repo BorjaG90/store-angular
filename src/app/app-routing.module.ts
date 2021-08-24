@@ -8,6 +8,7 @@ const routes: Routes = [
       import('./pages/products/products.module').then((m) => m.ProductsModule),
   },
   { path: 'checkout', loadChildren: () => import('./pages/checkout/checkout.module').then(m => m.CheckoutModule) },
+  { path: '', redirectTo: '/products', pathMatch: 'full' },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
