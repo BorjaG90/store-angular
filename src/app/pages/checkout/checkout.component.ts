@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 import { switchMap, tap } from 'rxjs/operators';
 import { Details, Order } from 'src/app/shared/intefaces/order.interface';
 import { Store } from 'src/app/shared/intefaces/store.interface';
@@ -25,7 +26,8 @@ export class CheckoutComponent implements OnInit {
 
   constructor(
     private dataSvc: DataService,
-    private shoppingCartSvc: ShoppingCartService
+    private shoppingCartSvc: ShoppingCartService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
