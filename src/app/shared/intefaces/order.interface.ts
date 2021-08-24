@@ -12,3 +12,9 @@ export interface Order {
   city: string;
   pickup: boolean;
 }
+
+export interface DetailsOrder {
+  details: Details[];
+  orderId: number;
+  id?: number;
+}
