@@ -15,7 +15,7 @@ export class DataService {
     return this.http.get<Store[]>(`${this.apiUrl}/stores`);
   }
 
-  saveOrders(order: Order): Observable<Order> {
+  saveOrder(order: Order): Observable<Order> {
     return this.http.post<Order>(`${this.apiUrl}/orders`, order);
   }
 
