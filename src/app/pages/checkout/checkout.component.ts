@@ -36,4 +36,9 @@ export class CheckoutComponent implements OnInit {
   onPickupOrDelivery(value: boolean): void {
     console.log(value);
   }
+
+  onSubmit(): void {
+    console.log("Guardar");
+    
+  }
 }
