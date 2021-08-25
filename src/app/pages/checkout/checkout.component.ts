@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
-import { switchMap, tap } from 'rxjs/operators';
+import { delay, switchMap, tap } from 'rxjs/operators';
 import { Details, Order } from 'src/app/shared/intefaces/order.interface';
 import { Store } from 'src/app/shared/intefaces/store.interface';
 import { DataService } from 'src/app/shared/services/data.service';
@@ -52,11 +52,13 @@ export class CheckoutComponent implements OnInit {
       .saveOrder(data)
       .pipe(
         tap((res) => console.log('Order ->', res)),
-        switchMap(({id:orderId}) => {
+        switchMap(({ id: orderId }) => {
           const details = this.prepareDetails();
           return this.dataSvc.saveDetailsOrder({ details, orderId });
         }),
-        tap((res) => console.log('Finish ->', res))
+        tap((res) => this.router.navigate(['/checkout/thank-you-page'])),
+        delay(2000),
+        tap(() => this.shoppingCartSvc.resetCart())
       )
       .subscribe();
   }
