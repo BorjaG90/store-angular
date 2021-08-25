@@ -3,7 +3,7 @@
 # Store
 
 [![Project](https://img.shields.io/badge/Project-Personal-blue.svg)][repo-link]
-[![Repository](https://img.shields.io/badge/gitlab-purple?logo=gitlab)][repo-link]
+[![Repository](https://img.shields.io/badge/github-black?logo=github)][repo-link]
 [![Language](https://img.shields.io/badge/Angular-D41630?logo=angular)][angular-link]
 
 A basic store website
@@ -43,6 +43,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width=50 alt="Typescript">][typescript-link]
 [<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" width=50 alt="Angular6">][angular-link]
+[<img src="https://raw.githubusercontent.com/BorjaG90/media/master/img/logos/json-server.png" width=50 alt="json-server">][json-server-link]
 
 ### Platforms
 
@@ -55,8 +56,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### **Borja Gete**
 
 [![Mail](https://img.shields.io/badge/borjag90dev@gmail.com-DDDDDD?style=for-the-badge&logo=gmail)][borjag90dev-gmail]
-[![Gitlab](https://img.shields.io/badge/BorjaG90-purple.svg?&style=for-the-badge&logo=gitlab)][borjag90dev-gitlab]
 [![Github](https://img.shields.io/badge/BorjaG90-000000.svg?&style=for-the-badge&logo=github&logoColor=white)][borjag90dev-github]
+[![Gitlab](https://img.shields.io/badge/BorjaG90-purple.svg?&style=for-the-badge&logo=gitlab)][borjag90dev-gitlab]
 [![LinkedIn](https://img.shields.io/badge/borjag90-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)][borjag90dev-linkedin]
 
 </div>
@@ -65,7 +66,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [borjag90dev-github]: https://github.com/BorjaG90
 [borjag90dev-gitlab]: https://gitlab.com/BorjaG90
 [borjag90dev-linkedin]: https://www.linkedin.com/in/borjag90/
-[repo-link]: https://gitlab.com/BorjaG90/store-angular
+[repo-link]: https://github.com/BorjaG90/store-angular
 [vscode-link]: https://code.visualstudio.com/
 [typescript-link]: https://www.typescriptlang.org/
 [angular-link]: https://angular.io/docs
+[json-server-link]: https://www.npmjs.com/package/json-server
