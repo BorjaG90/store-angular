@@ -29,15 +29,22 @@ export class ShoppingCartService {
     this.calcTotal();
   }
 
+  resetCart(): void {
+    this.cartSubject.next([]);
+    this.totalSubject.next(0);
+    this.quantitySubject.next(0);
+    this.products = [];
+  }
+
   private addToCart(product: Product): void {
-    const isProductInCart = this.products.find( ({id}) => id === product.id)
+    const isProductInCart = this.products.find(({ id }) => id === product.id);
 
     if (isProductInCart) {
-      isProductInCart.qty +=1
+      isProductInCart.qty += 1;
     } else {
-      this.products.push({...product, qty:1}); 
+      this.products.push({ ...product, qty: 1 });
     }
-    
+
     this.cartSubject.next(this.products);
   }
 
