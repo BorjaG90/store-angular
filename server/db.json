@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 7
     },
     {
       "id": 3,
@@ -137,6 +137,77 @@
       "date": "24/8/2021",
       "pickup": false,
       "id": 2
+    },
+    {
+      "name": "Borja Gete",
+      "store": {
+        "id": 1,
+        "name": "Park Row at Beekman St",
+        "address": "38 Park Row",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "25/8/2021",
+      "pickup": false,
+      "id": 3
+    },
+    {
+      "name": "Borja Gete",
+      "shippingAddress": "Calle Ercilla 21, 6 D",
+      "city": "Madrid",
+      "date": "25/8/2021",
+      "pickup": true,
+      "id": 4
+    },
+    {
+      "name": "Borja Gete",
+      "shippingAddress": "Calle Ercilla 21, 6 D",
+      "city": "Madrid",
+      "date": "25/8/2021",
+      "isDelivery": true,
+      "id": 5
+    },
+    {
+      "name": "Borja Gete",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "25/8/2021",
+      "isDelivery": false,
+      "id": 6
+    },
+    {
+      "name": "Borja Gete",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "25/8/2021",
+      "isDelivery": false,
+      "id": 7
+    },
+    {
+      "name": "Borja Gete",
+      "shippingAddress": "Calle Ercilla 21, 6 D",
+      "city": "Madrid",
+      "date": "25/8/2021",
+      "isDelivery": true,
+      "id": 8
+    },
+    {
+      "name": "Borja Gete",
+      "shippingAddress": "Calle Ercilla 21, 6 D",
+      "city": "Madrid",
+      "date": "25/8/2021",
+      "isDelivery": true,
+      "id": 9
     }
   ],
   "detailsOrders": [
@@ -166,6 +237,84 @@
       ],
       "orderId": 2,
       "id": 2
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "productName": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 2
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [],
+      "orderId": 9,
+      "id": 9
     }
   ]
 }
