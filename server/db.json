@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 3,
@@ -166,6 +166,32 @@
       "date": "25/8/2021",
       "isDelivery": true,
       "id": 5
+    },
+    {
+      "name": "Borja Gete",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "25/8/2021",
+      "isDelivery": false,
+      "id": 6
+    },
+    {
+      "name": "Borja Gete",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "25/8/2021",
+      "isDelivery": false,
+      "id": 7
     }
   ],
   "detailsOrders": [
@@ -253,6 +279,16 @@
       ],
       "orderId": 5,
       "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
     }
   ]
 }
