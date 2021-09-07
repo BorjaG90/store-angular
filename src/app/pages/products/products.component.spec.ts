@@ -19,7 +19,7 @@ describe('ProductsComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  // it('should make the sum', () => {
+  //   expect(2+2).toBe(4);
+  // });
 });
