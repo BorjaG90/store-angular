@@ -7,17 +7,23 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+const modules = [
+  MatToolbarModule,
+  MatCardModule,
+  MatButtonModule,
+  MatIconModule,
+  MatFormFieldModule,
+  MatRadioModule,
+  MatInputModule,
+  MatSelectModule,
+  BrowserAnimationsModule,
+  NoopAnimationsModule
+];
 
 @NgModule({
-  exports: [
-    MatToolbarModule,
-    MatCardModule,
-    MatButtonModule,
-    MatIconModule,
-    MatFormFieldModule,
-    MatRadioModule,
-    MatInputModule,
-    MatSelectModule
-  ],
+  imports: [...modules],
+  exports: [...modules],
 })
 export class MaterialModule {}

@@ -15,9 +15,9 @@ import { CartComponent } from './shared/components/cart/cart.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MaterialModule,
     FormsModule,
     BrowserAnimationsModule,
-    MaterialModule,
     HttpClientModule,
   ],
   providers: [],
